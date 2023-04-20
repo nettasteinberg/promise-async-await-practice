@@ -10,3 +10,8 @@ Implement the code with async/await
 Exercise 3:
 Display the list of users taken from https://reqres.in/api/users with fetch.
 Each item in the list will be displayed on the page with the following details: first name, last name, email and avatar (picture).
+
+Exercise 4:
+Display all the cat photos you get from https://api.thecatapi.com/v1/images/search?limit=10.
+Add the option to move between pages by clicking on the numbers 1-9, and make the appropriate call with the added 'page' parameter. For example, with page no. 3, the call will be: https://api.thecatapi.com/v1/images/search?limit=10&page=3.
+* When working with query parameters, it is recommended to use URLSearchParams.
