@@ -1,0 +1,30 @@
+.pagesDiv {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.pageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+}
+
+.pageButton {
+    color: black;
+    border: 1px solid black;
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.currentPage {
+    background-color: aqua;
+}
+
+.hover, .hover:hover {
+    cursor: pointer;
+}
