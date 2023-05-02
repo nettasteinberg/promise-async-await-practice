@@ -62,10 +62,3 @@ const createPageSelection = (index, clickable = true) => {
     pageDiv.append(pageButton);
     return pageDiv;
 }
-
-// document.addEventListener("keypress", function(event) {
-//     if (!event.code.includes("Digit")) {
-//         return;
-//     }
-//     getCatsPhotos(event.key);
-// })
